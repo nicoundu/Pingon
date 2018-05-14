@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IndexActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:drawableLeft="@mipmap/facebook_icon"
+        android:padding="20dp"
+        android:gravity="center_horizontal"
+        android:text="Facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="LinkedIn"
+        android:drawableLeft="@mipmap/linkedin_icon"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="www.pingon.cl"
+        android:drawableLeft="@mipmap/pingon_fragment_icon"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:drawableLeft="@mipmap/grua_icon"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:text="Equipos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <fragment
+        tools:layout="@layout/fragment_postula"
+        android:id="@+id/postulaFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </fragment>
+
+
+</LinearLayout>
