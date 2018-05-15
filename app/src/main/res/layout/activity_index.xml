@@ -8,8 +8,9 @@
     android:orientation="vertical">
 
     <TextView
-        android:drawableLeft="@mipmap/facebook_icon"
-        android:padding="20dp"
+        android:drawableStart="@mipmap/facebook_icon"
+        android:id="@+id/facebookTv"
+        android:padding="20sp"
         android:gravity="center_horizontal"
         android:text="Facebook"
         android:layout_width="match_parent"
@@ -17,35 +18,56 @@
 
     <TextView
         android:text="LinkedIn"
-        android:drawableLeft="@mipmap/linkedin_icon"
+        android:id="@+id/linkedinTv"
+        android:drawableStart="@mipmap/linkedin_icon"
         android:gravity="center_horizontal"
-        android:padding="20dp"
+        android:padding="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
         android:text="www.pingon.cl"
-        android:drawableLeft="@mipmap/pingon_fragment_icon"
+        android:id="@+id/webpageTv"
+        android:drawableStart="@mipmap/pingon_fragment_icon"
         android:gravity="center_horizontal"
-        android:padding="20dp"
+        android:padding="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
-        android:drawableLeft="@mipmap/grua_icon"
+        android:drawableStart="@mipmap/grua_icon"
+        android:id="@+id/machinesTv"
         android:gravity="center_horizontal"
-        android:padding="20dp"
+        android:padding="20sp"
         android:text="Equipos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <fragment
-        tools:layout="@layout/fragment_postula"
-        android:id="@+id/postulaFragment"
+    <TextView
+        android:drawableStart="@mipmap/ic_phone_black_24dp"
+        android:id="@+id/callusTv"
+        android:gravity="center_horizontal"
+        android:padding="20sp"
+        android:text="Contacto"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content" />
 
-    </fragment>
+    <TextView
+        android:drawableStart="@mipmap/postula_icon"
+        android:id="@+id/applyTv"
+        android:gravity="center_horizontal"
+        android:padding="20sp"
+        android:text="@string/postula_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    //ver guia de material design respecto a la lista
+
+
+
+
+
 
 
 </LinearLayout>

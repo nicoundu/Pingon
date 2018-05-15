@@ -4,4 +4,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_launcher">LauncherActivity</string>
+    <string name="phone_icon">Llamanos!</string>
+    <string name="postula_icon">Postula Aqui</string>
+
 </resources>
